@@ -18,8 +18,10 @@ clf.fit(train_data)
 	
 kernel : radial basis function
 Specifies the kernel type to be used in the algorithm. It must be one of ‘linear’, ‘poly’, ‘rbf’, ‘sigmoid’, ‘precomputed’ or a callable. 
+
 nu : float, optional
 An upper bound on the fraction of training errors and a lower bound of the fraction of support vectors. Should be in the interval (0, 1]. 
+
 gamma : seperation sharpness
 
 To execute the program either double click or start it with: "python oneclassvis.py"
