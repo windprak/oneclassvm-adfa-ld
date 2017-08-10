@@ -12,7 +12,9 @@ All programs are done with python. The example is showing the use of the OneClas
 
 
 
-First all dependencies must be installed: pip install -U scikit-learn,apt-get install python-numpy python-scipy. For Windows you have to install Scipy manually (http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy cd C:\Users\[user]\Downloads pip install scipy-0.18.1-cp35-cp35m-win_amd64.whl.). 
+First all dependencies must be installed: pip install -U scikit-learn,apt-get install python-numpy python-scipy. 
+
+For Windows you have to install Scipy manually (http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy cd C:\Users\[user]\Downloads pip install scipy-0.18.1-cp35-cp35m-win_amd64.whl.). 
 
 To train the model the svm is using two parameters:
 
