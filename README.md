@@ -7,9 +7,12 @@ We have 4 methods of dataconversion.
 3. A String similarity method
 4. A semantic approach calculating the  occurences of every call and traces of length n (up to 5)
 
-All programs are done with python. 
+All programs are done with python. The example is showing the use of the OneClassSVM. 
 
-The example is showing the use of the OneClassSVM. First all dependencies must be installed: pip install -U scikit-learn,apt-get install python-numpy python-scipy. For Windows you have to install Scipy manually (http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy cd C:\Users\[user]\Downloads pip install scipy-0.18.1-cp35-cp35m-win_amd64.whl.). 
+
+
+
+First all dependencies must be installed: pip install -U scikit-learn,apt-get install python-numpy python-scipy. For Windows you have to install Scipy manually (http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy cd C:\Users\[user]\Downloads pip install scipy-0.18.1-cp35-cp35m-win_amd64.whl.). 
 
 To train the model the svm is using two parameters:
 
@@ -26,6 +29,12 @@ gamma : seperation sharpness
 
 To execute the program either double click or start it with: "python oneclassvis.py"
 It will display the calculation from the transitiongraph (method 1) with just avg and variation as features for good visualization.
+
+
+
+
+
+
 
 
 For testing other .csv files, just run the proposed convertion programs (change path to the adfa ld datasets) and train the model on the newly generated .csv files.
